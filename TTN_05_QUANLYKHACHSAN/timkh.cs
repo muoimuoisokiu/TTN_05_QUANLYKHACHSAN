@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -37,7 +37,7 @@ namespace Qlks
                 }
                 
             }
-            else MessageBox.Show("Nhập !!!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            else MessageBox.Show("Nh?p !!!", "L?i", MessageBoxButtons.OK, MessageBoxIcon.Error);
         }
 
         private void bt_xoa_Click(object sender, EventArgs e)
@@ -50,46 +50,5 @@ namespace Qlks
             bt_ct.Enabled = false;
             txt_tk.Text = "";
         }
-        private void timkh_Load(object sender, EventArgs e)
-        {
-            load();
-        }
-
-
-        private void dg_Click(object sender, EventArgs e)
-        {
-            bt_ct.Enabled = true;
-            try
-            {
-                mp = Convert.ToInt32(dg.CurrentRow.Cells["Maphong"].Value);
             }
-            catch (Exception)
-            {
-                
-               
-            }
-            
-        }
-
-        private void bt_ct_Click(object sender, EventArgs e)
-        {
-            if (scm == "")
-            {
-                datphong.mp = mp;
-                datphong dp = new datphong();
-                dp.Show();
-            }
-            else
-            {
-                phong.maphong = mp;
-                phong p = new phong();
-                p.Show();
-            }
-        }
-
-        private void dg_CellClick(object sender, DataGridViewCellEventArgs e)
-        {
-            scm = Convert.ToString(dg.CurrentRow.Cells["Socm"].Value);
-        }
-    }
 }
