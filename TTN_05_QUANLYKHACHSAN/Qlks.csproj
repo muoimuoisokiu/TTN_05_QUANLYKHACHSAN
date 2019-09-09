@@ -1,0 +1,576 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DDA162B7-B4C1-49B1-AD15-0D1CFA93A2CD}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Qlks</RootNamespace>
+    <AssemblyName>Qlks</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.900.148\lib\net40\Microsoft.ReportViewer.Common.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.DataVisualization, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.900.148\lib\net40\Microsoft.ReportViewer.DataVisualization.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Design, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.900.148\lib\net40\Microsoft.ReportViewer.Design.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.ProcessingObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.900.148\lib\net40\Microsoft.ReportViewer.ProcessingObjectModel.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WebForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Report.Viewer.11.0.0.0\lib\net\Microsoft.ReportViewer.WebForms.DLL</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>C:\Program Files (x86)\Microsoft Visual Studio 10.0\ReportViewer\Microsoft.ReportViewer.WinForms.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="capnhat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="capnhat.Designer.cs">
+      <DependentUpon>capnhat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CauLenh.cs" />
+    <Compile Include="DangNhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DangNhap.Designer.cs">
+      <DependentUpon>DangNhap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="danhsachphong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="danhsachphong.Designer.cs">
+      <DependentUpon>danhsachphong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="datphong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="datphong.Designer.cs">
+      <DependentUpon>datphong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="dichvu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dichvu.Designer.cs">
+      <DependentUpon>dichvu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="doanhthu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="doanhthu.Designer.cs">
+      <DependentUpon>doanhthu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="doimatkhau.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="doimatkhau.Designer.cs">
+      <DependentUpon>doimatkhau.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ds.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HuongDan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HuongDan.Designer.cs">
+      <DependentUpon>HuongDan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="inhoadon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="inhoadon.Designer.cs">
+      <DependentUpon>inhoadon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="phong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="phong.Designer.cs">
+      <DependentUpon>phong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="qlks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="qlks.Designer.cs">
+      <DependentUpon>qlks.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="suaphong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="suaphong.Designer.cs">
+      <DependentUpon>suaphong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Txphong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Txphong.Designer.cs">
+      <DependentUpon>Txphong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Thongtin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Thongtin.Designer.cs">
+      <DependentUpon>Thongtin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="thongtinnv.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="thongtinnv.Designer.cs">
+      <DependentUpon>thongtinnv.cs</DependentUpon>
+    </Compile>
+    <Compile Include="timkh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="timkh.Designer.cs">
+      <DependentUpon>timkh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="tinhtien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tinhtien.Designer.cs">
+      <DependentUpon>tinhtien.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="capnhat.resx">
+      <DependentUpon>capnhat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DangNhap.resx">
+      <DependentUpon>DangNhap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="danhsachphong.resx">
+      <DependentUpon>danhsachphong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="datphong.resx">
+      <DependentUpon>datphong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dichvu.resx">
+      <DependentUpon>dichvu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="doanhthu.resx">
+      <DependentUpon>doanhthu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="doimatkhau.resx">
+      <DependentUpon>doimatkhau.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HuongDan.resx">
+      <DependentUpon>HuongDan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="inhoadon.resx">
+      <DependentUpon>inhoadon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="phong.resx">
+      <DependentUpon>phong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="qlks.resx">
+      <DependentUpon>qlks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="rp.rdlc">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="suaphong.resx">
+      <DependentUpon>suaphong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Thongtin.resx">
+      <DependentUpon>Thongtin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="thongtinnv.resx">
+      <DependentUpon>thongtinnv.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="timkh.resx">
+      <DependentUpon>timkh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tinhtien.resx">
+      <DependentUpon>tinhtien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Txphong.resx">
+      <DependentUpon>Txphong.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="ds.xsc">
+      <DependentUpon>ds.xsd</DependentUpon>
+    </None>
+    <None Include="ds.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="ds.xss">
+      <DependentUpon>ds.xsd</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Hinh\unnamed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Hinh\icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Hinh\ic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Hinh\tich.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Hinh\x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Hinh\dangnhap.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Hinh\thoat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Hinh\doimk.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Hinh\doinen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Hinh\phong.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Hinh\nhanvien.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Hinh\sua.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Hinh\tim.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Hinh\doanhthu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Hinh\thong tin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Hinh\huongdan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Hinh\them.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\12345525_749204615224592_9005004301540471696_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\man key.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\man key1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\man key2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\is.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background-dep-7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Beautiful-Background-Wallpaper-Copy.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\key-flat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loginIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\t_i xu_ng%2857%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\t_i xu_ng%2857%291.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %282%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %283%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Beautiful-Background-Wallpaper-Copy1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %282%291.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %283%291.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Beautiful-Background-Wallpaper-Copy2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %286%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %287%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %284%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %288%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %283%292.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %282%292.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %289%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %288%291.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %2812%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %288%292.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\is1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %2813%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %2814%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %2813%291.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %2815%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %2815%291.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %2815%292.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %2817%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %2819%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %2818%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Beautiful-floral-background-Stock-Photo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Beautiful-floral-background-Stock-Photo1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %284%291.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %289%291.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %2815%293.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %2815%294.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %2815%295.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\is2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %281%292.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %282%293.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %283%293.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %2810%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Beautiful-Background-Wallpaper-Copy3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %283%294.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %286%291.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %289%292.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %289%293.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %281%293.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %283%295.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Beautiful-Background-Wallpaper-Copy4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %289%294.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %286%292.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Beautiful-Background-Wallpaper-Copy5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %289%295.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %283%296.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Beautiful-Background-Wallpaper-Copy6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %286%293.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %2815%296.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %283%297.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %283%298.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Beautiful-Background-Wallpaper-Copy7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %282%294.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %281%294.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\t_i xu_ng%2857%292.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %281%291.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Beautiful-Background-Wallpaper-Copy8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Beautiful-Background-Wallpaper-Copy9.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
