@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace TTN_05_QUANLYKHACHSAN
+namespace Qlks
 {
     static class Program
     {
@@ -16,7 +16,7 @@ namespace TTN_05_QUANLYKHACHSAN
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new DangNhap());
         }
     }
 }
