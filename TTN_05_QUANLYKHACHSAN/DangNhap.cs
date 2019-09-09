@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -20,17 +20,6 @@ namespace Qlks
         }
 
 
-        CauLenh cl = new CauLenh();
-        DataTable dt = new DataTable();
-        private void DangNhap_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void bt_thoat_Click(object sender, EventArgs e)
-        {
-            Application.Exit();
-        }
 
         private void bt_dn_Click(object sender, EventArgs e)
         {
@@ -54,7 +43,7 @@ namespace Qlks
 
                     else
                     {
-                        MessageBox.Show("Sai Tài Khoản Hoặc Mật khẩu", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        MessageBox.Show("Sai T�i Kho?n Ho?c M?t kh?u", "Th�ng B�o", MessageBoxButtons.OK, MessageBoxIcon.Error);
                         txt_tk.Text = "";
                         txt_mk.Text = "";
                         txt_tk.Focus();
@@ -62,13 +51,13 @@ namespace Qlks
                 }
                 else
                 {
-                    MessageBox.Show("Nhập Mật khẩu", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show("Nh?p M?t kh?u", "Th�ng B�o", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     txt_mk.Focus();
                 }
             }
             else
             {
-                MessageBox.Show("Nhập Tài Khoản", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Nh?p T�i Kho?n", "Th�ng B�o", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 txt_tk.Focus();
             }
         }
