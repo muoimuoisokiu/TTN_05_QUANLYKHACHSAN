@@ -40,6 +40,16 @@ namespace Qlks
             else MessageBox.Show("Nh?p !!!", "L?i", MessageBoxButtons.OK, MessageBoxIcon.Error);
         }
 
+        private void bt_xoa_Click(object sender, EventArgs e)
+        {
+            load();
+        }
+        private void load()
+        {
+            bt_xoa.Enabled = false;
+            bt_ct.Enabled = false;
+            txt_tk.Text = "";
+        }
         private void timkh_Load(object sender, EventArgs e)
         {
             load();
