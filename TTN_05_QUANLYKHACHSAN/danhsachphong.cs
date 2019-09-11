@@ -37,7 +37,21 @@ namespace Qlks
         private void bt_loc_Click(object sender, EventArgs e)
         {
 
-                        else
+            if(rd_t.Checked == true)
+            {
+                dt.Clear();
+                dt = cl.danhsachpt(0);
+                dg.DataSource = dt;
+                bt_xoa.Enabled = true;
+            }
+            if(rd_kt.Checked == true)
+            {
+                dt.Clear();
+                dt = cl.danhsachpkt(0);
+                dg.DataSource = dt;
+                bt_xoa.Enabled = true;
+            }
+            else
             {
                 
             }
