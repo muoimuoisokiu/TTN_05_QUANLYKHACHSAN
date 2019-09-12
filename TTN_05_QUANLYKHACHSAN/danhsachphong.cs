@@ -13,7 +13,23 @@ namespace Qlks
 {
     public partial class danhsachphong : Form
     {
-                private void danhsachphong_Load(object sender, EventArgs e)
+        public danhsachphong()
+        {
+            InitializeComponent();
+        }
+        CauLenh cl = new CauLenh();
+        DataTable dt = new DataTable();
+        private void load()
+        {
+            dt.Clear();
+            dt = cl.danhsachp(0);
+            dg.DataSource = dt;
+            rd_kt.Checked = false;
+            rd_t.Checked = false;
+            bt_loc.Enabled = false;
+            bt_xoa.Enabled = false;
+        }
+        private void danhsachphong_Load(object sender, EventArgs e)
         {
             load();
         }
