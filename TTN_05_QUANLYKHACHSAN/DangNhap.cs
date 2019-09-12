@@ -20,6 +20,17 @@ namespace Qlks
         }
 
 
+        CauLenh cl = new CauLenh();
+        DataTable dt = new DataTable();
+        private void DangNhap_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bt_thoat_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
 
         private void bt_dn_Click(object sender, EventArgs e)
         {
