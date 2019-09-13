@@ -198,34 +198,6 @@
             this.label7.TabIndex = 1;
             this.label7.Text = "Vnd";
             // 
-            // dataGridView1
-            // 
-            this.dataGridView1.AllowUserToAddRows = false;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Ma,
-            this.Ten,
-            this.Gia});
-            this.dataGridView1.Location = new System.Drawing.Point(12, 84);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridView1.Size = new System.Drawing.Size(331, 302);
-            this.dataGridView1.TabIndex = 4;
-            this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
-            // 
-            // lb_mp
-            // 
-            this.lb_mp.AutoSize = true;
-            this.lb_mp.BackColor = System.Drawing.Color.SeaGreen;
-            this.lb_mp.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lb_mp.ForeColor = System.Drawing.Color.MintCream;
-            this.lb_mp.Location = new System.Drawing.Point(380, 9);
-            this.lb_mp.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lb_mp.Name = "lb_mp";
-            this.lb_mp.Size = new System.Drawing.Size(85, 31);
-            this.lb_mp.TabIndex = 0;
-            this.lb_mp.Text = "label1";
-            // 
             // Ma
             // 
             this.Ma.DataPropertyName = "MaDv";
@@ -291,6 +263,34 @@
             this.label9.Size = new System.Drawing.Size(165, 22);
             this.label9.TabIndex = 1;
             this.label9.Text = "Table service room";
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.AllowUserToAddRows = false;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Ma,
+            this.Ten,
+            this.Gia});
+            this.dataGridView1.Location = new System.Drawing.Point(12, 84);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dataGridView1.Size = new System.Drawing.Size(331, 302);
+            this.dataGridView1.TabIndex = 4;
+            this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
+            // 
+            // lb_mp
+            // 
+            this.lb_mp.AutoSize = true;
+            this.lb_mp.BackColor = System.Drawing.Color.SeaGreen;
+            this.lb_mp.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_mp.ForeColor = System.Drawing.Color.MintCream;
+            this.lb_mp.Location = new System.Drawing.Point(380, 9);
+            this.lb_mp.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lb_mp.Name = "lb_mp";
+            this.lb_mp.Size = new System.Drawing.Size(85, 31);
+            this.lb_mp.TabIndex = 0;
+            this.lb_mp.Text = "label1";
             // 
             // capnhat
             // 
