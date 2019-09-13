@@ -53,85 +53,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
-            // lb_mp
-            // 
-            this.lb_mp.AutoSize = true;
-            this.lb_mp.BackColor = System.Drawing.Color.SeaGreen;
-            this.lb_mp.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lb_mp.ForeColor = System.Drawing.Color.MintCream;
-            this.lb_mp.Location = new System.Drawing.Point(380, 9);
-            this.lb_mp.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lb_mp.Name = "lb_mp";
-            this.lb_mp.Size = new System.Drawing.Size(85, 31);
-            this.lb_mp.TabIndex = 0;
-            this.lb_mp.Text = "label1";
-            // 
-            // Ma
-            // 
-            this.Ma.DataPropertyName = "MaDv";
-            this.Ma.HeaderText = "Mã";
-            this.Ma.Name = "Ma";
-            this.Ma.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.Ma.Width = 50;
-            // 
-            // Ten
-            // 
-            this.Ten.DataPropertyName = "TenDv";
-            this.Ten.HeaderText = "Tên Dịch Vụ";
-            this.Ten.Name = "Ten";
-            this.Ten.Width = 158;
-            // 
-            // Gia
-            // 
-            this.Gia.DataPropertyName = "Gia";
-            this.Gia.HeaderText = "Giá";
-            this.Gia.Name = "Gia";
-            this.Gia.Width = 80;
-            // 
-            // txt_sl
-            // 
-            this.txt_sl.Location = new System.Drawing.Point(448, 118);
-            this.txt_sl.Name = "txt_sl";
-            this.txt_sl.Size = new System.Drawing.Size(55, 23);
-            this.txt_sl.TabIndex = 5;
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.BackColor = System.Drawing.Color.LightCoral;
-            this.label8.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.ForeColor = System.Drawing.Color.Black;
-            this.label8.Location = new System.Drawing.Point(352, 121);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(49, 19);
-            this.label8.TabIndex = 6;
-            this.label8.Text = "quatity";
-            // 
-            // bt_qua
-            // 
-            this.bt_qua.BackColor = System.Drawing.Color.LightCoral;
-            this.bt_qua.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bt_qua.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.bt_qua.Location = new System.Drawing.Point(521, 201);
-            this.bt_qua.Name = "bt_qua";
-            this.bt_qua.Size = new System.Drawing.Size(43, 28);
-            this.bt_qua.TabIndex = 7;
-            this.bt_qua.Text = ">>";
-            this.bt_qua.UseVisualStyleBackColor = false;
-            this.bt_qua.Click += new System.EventHandler(this.bt_qua_Click);
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.BackColor = System.Drawing.Color.LightCoral;
-            this.label9.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.ForeColor = System.Drawing.Color.Black;
-            this.label9.Location = new System.Drawing.Point(101, 53);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(165, 22);
-            this.label9.TabIndex = 1;
-            this.label9.Text = "Table service room";
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -291,6 +212,85 @@
             this.dataGridView1.Size = new System.Drawing.Size(331, 302);
             this.dataGridView1.TabIndex = 4;
             this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
+            // 
+            // lb_mp
+            // 
+            this.lb_mp.AutoSize = true;
+            this.lb_mp.BackColor = System.Drawing.Color.SeaGreen;
+            this.lb_mp.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_mp.ForeColor = System.Drawing.Color.MintCream;
+            this.lb_mp.Location = new System.Drawing.Point(380, 9);
+            this.lb_mp.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lb_mp.Name = "lb_mp";
+            this.lb_mp.Size = new System.Drawing.Size(85, 31);
+            this.lb_mp.TabIndex = 0;
+            this.lb_mp.Text = "label1";
+            // 
+            // Ma
+            // 
+            this.Ma.DataPropertyName = "MaDv";
+            this.Ma.HeaderText = "Mã";
+            this.Ma.Name = "Ma";
+            this.Ma.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.Ma.Width = 50;
+            // 
+            // Ten
+            // 
+            this.Ten.DataPropertyName = "TenDv";
+            this.Ten.HeaderText = "Tên Dịch Vụ";
+            this.Ten.Name = "Ten";
+            this.Ten.Width = 158;
+            // 
+            // Gia
+            // 
+            this.Gia.DataPropertyName = "Gia";
+            this.Gia.HeaderText = "Giá";
+            this.Gia.Name = "Gia";
+            this.Gia.Width = 80;
+            // 
+            // txt_sl
+            // 
+            this.txt_sl.Location = new System.Drawing.Point(448, 118);
+            this.txt_sl.Name = "txt_sl";
+            this.txt_sl.Size = new System.Drawing.Size(55, 23);
+            this.txt_sl.TabIndex = 5;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.BackColor = System.Drawing.Color.LightCoral;
+            this.label8.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.ForeColor = System.Drawing.Color.Black;
+            this.label8.Location = new System.Drawing.Point(352, 121);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(49, 19);
+            this.label8.TabIndex = 6;
+            this.label8.Text = "quatity";
+            // 
+            // bt_qua
+            // 
+            this.bt_qua.BackColor = System.Drawing.Color.LightCoral;
+            this.bt_qua.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bt_qua.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.bt_qua.Location = new System.Drawing.Point(521, 201);
+            this.bt_qua.Name = "bt_qua";
+            this.bt_qua.Size = new System.Drawing.Size(43, 28);
+            this.bt_qua.TabIndex = 7;
+            this.bt_qua.Text = ">>";
+            this.bt_qua.UseVisualStyleBackColor = false;
+            this.bt_qua.Click += new System.EventHandler(this.bt_qua_Click);
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.BackColor = System.Drawing.Color.LightCoral;
+            this.label9.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.ForeColor = System.Drawing.Color.Black;
+            this.label9.Location = new System.Drawing.Point(101, 53);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(165, 22);
+            this.label9.TabIndex = 1;
+            this.label9.Text = "Table service room";
             // 
             // capnhat
             // 
