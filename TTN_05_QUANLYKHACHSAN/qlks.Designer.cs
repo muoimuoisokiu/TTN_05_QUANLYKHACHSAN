@@ -1465,6 +1465,19 @@
             this.bt_202.Click += new System.EventHandler(this.bt_202_Click);
             this.bt_202.MouseDown += new System.Windows.Forms.MouseEventHandler(this.bt_202_MouseDown);
             // 
+            // bt_102
+            // 
+            this.bt_102.BackgroundImage = global::Qlks.Properties.Resources.images4;
+            this.bt_102.ForeColor = System.Drawing.Color.Cornsilk;
+            this.bt_102.Image = global::Qlks.Properties.Resources.images2;
+            this.bt_102.Location = new System.Drawing.Point(147, 116);
+            this.bt_102.Name = "bt_102";
+            this.bt_102.Size = new System.Drawing.Size(80, 80);
+            this.bt_102.TabIndex = 4;
+            this.bt_102.UseVisualStyleBackColor = true;
+            this.bt_102.Click += new System.EventHandler(this.bt_102_Click);
+            this.bt_102.MouseDown += new System.Windows.Forms.MouseEventHandler(this.bt_102_MouseDown);
+            // 
             // bt_501
             // 
             this.bt_501.BackgroundImage = global::Qlks.Properties.Resources.images4;
@@ -1525,19 +1538,7 @@
             this.bt_201.UseVisualStyleBackColor = true;
             this.bt_201.Click += new System.EventHandler(this.bt_201_Click);
             this.bt_201.MouseDown += new System.Windows.Forms.MouseEventHandler(this.bt_201_MouseDown);
-            // 
-            // bt_102
-            // 
-            this.bt_102.BackgroundImage = global::Qlks.Properties.Resources.images4;
-            this.bt_102.ForeColor = System.Drawing.Color.Cornsilk;
-            this.bt_102.Image = global::Qlks.Properties.Resources.images2;
-            this.bt_102.Location = new System.Drawing.Point(147, 116);
-            this.bt_102.Name = "bt_102";
-            this.bt_102.Size = new System.Drawing.Size(80, 80);
-            this.bt_102.TabIndex = 4;
-            this.bt_102.UseVisualStyleBackColor = true;
-            this.bt_102.Click += new System.EventHandler(this.bt_102_Click);
-            this.bt_102.MouseDown += new System.Windows.Forms.MouseEventHandler(this.bt_102_MouseDown);
+
             // 
             // bt_101
             // 
