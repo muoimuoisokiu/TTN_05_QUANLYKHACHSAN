@@ -1248,6 +1248,79 @@
             this.bt_106.Click += new System.EventHandler(this.bt_106_Click);
             this.bt_106.MouseDown += new System.Windows.Forms.MouseEventHandler(this.bt_106_MouseDown);
             // 
+            // bt_505
+            // 
+            this.bt_505.BackgroundImage = global::Qlks.Properties.Resources.t_i_xu_ng_57_2;
+            this.bt_505.Image = global::Qlks.Properties.Resources.t_i_xu_ng_57_;
+            this.bt_505.Location = new System.Drawing.Point(405, 512);
+            this.bt_505.Name = "bt_505";
+            this.bt_505.Size = new System.Drawing.Size(80, 80);
+            this.bt_505.TabIndex = 4;
+            this.bt_505.UseVisualStyleBackColor = true;
+            this.bt_505.Click += new System.EventHandler(this.bt_505_Click);
+            this.bt_505.MouseDown += new System.Windows.Forms.MouseEventHandler(this.bt_505_MouseDown);
+            // 
+            // bt_405
+            // 
+            this.bt_405.BackgroundImage = global::Qlks.Properties.Resources.t_i_xu_ng_57_2;
+            this.bt_405.Image = global::Qlks.Properties.Resources.t_i_xu_ng_57_;
+            this.bt_405.Location = new System.Drawing.Point(405, 413);
+            this.bt_405.Name = "bt_405";
+            this.bt_405.Size = new System.Drawing.Size(80, 80);
+            this.bt_405.TabIndex = 4;
+            this.bt_405.UseVisualStyleBackColor = true;
+            this.bt_405.Click += new System.EventHandler(this.bt_405_Click);
+            this.bt_405.MouseDown += new System.Windows.Forms.MouseEventHandler(this.bt_405_MouseDown);
+            // 
+            // bt_305
+            // 
+            this.bt_305.BackgroundImage = global::Qlks.Properties.Resources.t_i_xu_ng_57_2;
+            this.bt_305.Image = global::Qlks.Properties.Resources.t_i_xu_ng_57_;
+            this.bt_305.Location = new System.Drawing.Point(405, 314);
+            this.bt_305.Name = "bt_305";
+            this.bt_305.Size = new System.Drawing.Size(80, 80);
+            this.bt_305.TabIndex = 4;
+            this.bt_305.UseVisualStyleBackColor = true;
+            this.bt_305.Click += new System.EventHandler(this.bt_305_Click);
+            this.bt_305.MouseDown += new System.Windows.Forms.MouseEventHandler(this.bt_305_MouseDown);
+            // 
+            // bt_205
+            // 
+            this.bt_205.BackgroundImage = global::Qlks.Properties.Resources.t_i_xu_ng_57_2;
+            this.bt_205.Image = global::Qlks.Properties.Resources.t_i_xu_ng_57_;
+            this.bt_205.Location = new System.Drawing.Point(405, 215);
+            this.bt_205.Name = "bt_205";
+            this.bt_205.Size = new System.Drawing.Size(80, 80);
+            this.bt_205.TabIndex = 4;
+            this.bt_205.UseVisualStyleBackColor = true;
+            this.bt_205.Click += new System.EventHandler(this.bt_205_Click);
+            this.bt_205.MouseDown += new System.Windows.Forms.MouseEventHandler(this.bt_205_MouseDown_1);
+            // 
+            // bt_105
+            // 
+            this.bt_105.BackgroundImage = global::Qlks.Properties.Resources.t_i_xu_ng_57_2;
+            this.bt_105.Image = global::Qlks.Properties.Resources.t_i_xu_ng_57_;
+            this.bt_105.Location = new System.Drawing.Point(405, 116);
+            this.bt_105.Name = "bt_105";
+            this.bt_105.Size = new System.Drawing.Size(80, 80);
+            this.bt_105.TabIndex = 4;
+            this.bt_105.UseVisualStyleBackColor = true;
+            this.bt_105.Click += new System.EventHandler(this.bt_105_Click);
+            this.bt_105.MouseDown += new System.Windows.Forms.MouseEventHandler(this.bt_105_MouseDown);
+
+            // 
+            // bt_104
+            // 
+            this.bt_104.BackgroundImage = global::Qlks.Properties.Resources.images4;
+            this.bt_104.Image = global::Qlks.Properties.Resources.images2;
+            this.bt_104.Location = new System.Drawing.Point(319, 116);
+            this.bt_104.Name = "bt_104";
+            this.bt_104.Size = new System.Drawing.Size(80, 80);
+            this.bt_104.TabIndex = 4;
+            this.bt_104.UseVisualStyleBackColor = true;
+            this.bt_104.Click += new System.EventHandler(this.bt_104_Click);
+            this.bt_104.MouseDown += new System.Windows.Forms.MouseEventHandler(this.bt_104_MouseDown);
+            // 
             // bt_504
             // 
             this.bt_504.BackgroundImage = global::Qlks.Properties.Resources.images4;
@@ -1478,80 +1551,6 @@
             this.bt_101.Click += new System.EventHandler(this.bt_101_Click);
             this.bt_101.MouseClick += new System.Windows.Forms.MouseEventHandler(this.bt_101_MouseClick);
             this.bt_101.MouseDown += new System.Windows.Forms.MouseEventHandler(this.bt_101_MouseDown);
-            // 
-            // bt_505
-            // 
-            this.bt_505.BackgroundImage = global::Qlks.Properties.Resources.t_i_xu_ng_57_2;
-            this.bt_505.Image = global::Qlks.Properties.Resources.t_i_xu_ng_57_;
-            this.bt_505.Location = new System.Drawing.Point(405, 512);
-            this.bt_505.Name = "bt_505";
-            this.bt_505.Size = new System.Drawing.Size(80, 80);
-            this.bt_505.TabIndex = 4;
-            this.bt_505.UseVisualStyleBackColor = true;
-            this.bt_505.Click += new System.EventHandler(this.bt_505_Click);
-            this.bt_505.MouseDown += new System.Windows.Forms.MouseEventHandler(this.bt_505_MouseDown);
-            // 
-            // bt_405
-            // 
-            this.bt_405.BackgroundImage = global::Qlks.Properties.Resources.t_i_xu_ng_57_2;
-            this.bt_405.Image = global::Qlks.Properties.Resources.t_i_xu_ng_57_;
-            this.bt_405.Location = new System.Drawing.Point(405, 413);
-            this.bt_405.Name = "bt_405";
-            this.bt_405.Size = new System.Drawing.Size(80, 80);
-            this.bt_405.TabIndex = 4;
-            this.bt_405.UseVisualStyleBackColor = true;
-            this.bt_405.Click += new System.EventHandler(this.bt_405_Click);
-            this.bt_405.MouseDown += new System.Windows.Forms.MouseEventHandler(this.bt_405_MouseDown);
-            // 
-            // bt_305
-            // 
-            this.bt_305.BackgroundImage = global::Qlks.Properties.Resources.t_i_xu_ng_57_2;
-            this.bt_305.Image = global::Qlks.Properties.Resources.t_i_xu_ng_57_;
-            this.bt_305.Location = new System.Drawing.Point(405, 314);
-            this.bt_305.Name = "bt_305";
-            this.bt_305.Size = new System.Drawing.Size(80, 80);
-            this.bt_305.TabIndex = 4;
-            this.bt_305.UseVisualStyleBackColor = true;
-            this.bt_305.Click += new System.EventHandler(this.bt_305_Click);
-            this.bt_305.MouseDown += new System.Windows.Forms.MouseEventHandler(this.bt_305_MouseDown);
-            // 
-            // bt_205
-            // 
-            this.bt_205.BackgroundImage = global::Qlks.Properties.Resources.t_i_xu_ng_57_2;
-            this.bt_205.Image = global::Qlks.Properties.Resources.t_i_xu_ng_57_;
-            this.bt_205.Location = new System.Drawing.Point(405, 215);
-            this.bt_205.Name = "bt_205";
-            this.bt_205.Size = new System.Drawing.Size(80, 80);
-            this.bt_205.TabIndex = 4;
-            this.bt_205.UseVisualStyleBackColor = true;
-            this.bt_205.Click += new System.EventHandler(this.bt_205_Click);
-            this.bt_205.MouseDown += new System.Windows.Forms.MouseEventHandler(this.bt_205_MouseDown_1);
-            // 
-            // bt_105
-            // 
-            this.bt_105.BackgroundImage = global::Qlks.Properties.Resources.t_i_xu_ng_57_2;
-            this.bt_105.Image = global::Qlks.Properties.Resources.t_i_xu_ng_57_;
-            this.bt_105.Location = new System.Drawing.Point(405, 116);
-            this.bt_105.Name = "bt_105";
-            this.bt_105.Size = new System.Drawing.Size(80, 80);
-            this.bt_105.TabIndex = 4;
-            this.bt_105.UseVisualStyleBackColor = true;
-            this.bt_105.Click += new System.EventHandler(this.bt_105_Click);
-            this.bt_105.MouseDown += new System.Windows.Forms.MouseEventHandler(this.bt_105_MouseDown);
-
-            // 
-            // bt_104
-            // 
-            this.bt_104.BackgroundImage = global::Qlks.Properties.Resources.images4;
-            this.bt_104.Image = global::Qlks.Properties.Resources.images2;
-            this.bt_104.Location = new System.Drawing.Point(319, 116);
-            this.bt_104.Name = "bt_104";
-            this.bt_104.Size = new System.Drawing.Size(80, 80);
-            this.bt_104.TabIndex = 4;
-            this.bt_104.UseVisualStyleBackColor = true;
-            this.bt_104.Click += new System.EventHandler(this.bt_104_Click);
-            this.bt_104.MouseDown += new System.Windows.Forms.MouseEventHandler(this.bt_104_MouseDown);
-
 
             // 
             // pt_hinh
