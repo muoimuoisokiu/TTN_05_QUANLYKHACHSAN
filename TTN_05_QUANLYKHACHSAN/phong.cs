@@ -14,26 +14,7 @@ namespace Qlks
 {
     public partial class phong : Form
     {
-        public phong()
-        {
-            InitializeComponent();
-        }
-        public static int maphong;
-        CauLenh cl = new CauLenh();
-        DataTable dt = new DataTable();
-        SqlDataReader dr;
-        private void load()
-        {
-            bt_capnhat.Enabled = false;
-            bt_tinhtien.Enabled = false;
-            if (rd_kt.Checked == true)
-            {
-                bt_capnhat.Enabled = true;
-                bt_tinhtien.Enabled = true;
-            }
-            else
-            {
-                bt_capnhat.Enabled = false;
+
                 bt_tinhtien.Enabled = false;
             }
             label1.Text = "Thông Tin Phòng " + maphong.ToString();
