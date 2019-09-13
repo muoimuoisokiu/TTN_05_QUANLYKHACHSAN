@@ -37,6 +37,41 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
+
+            // 
+            // bt_username
+            // 
+            this.bt_username.BackColor = System.Drawing.Color.DimGray;
+            this.bt_username.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bt_username.ForeColor = System.Drawing.Color.White;
+            this.bt_username.Location = new System.Drawing.Point(33, 188);
+            this.bt_username.Name = "bt_username";
+            this.bt_username.Size = new System.Drawing.Size(75, 23);
+            this.bt_username.TabIndex = 3;
+            this.bt_username.Text = "Username";
+            this.bt_username.UseVisualStyleBackColor = false;
+            // 
+            // bt_password
+            // 
+            this.bt_password.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.bt_password.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bt_password.ForeColor = System.Drawing.Color.White;
+            this.bt_password.Location = new System.Drawing.Point(33, 220);
+            this.bt_password.Name = "bt_password";
+            this.bt_password.Size = new System.Drawing.Size(75, 21);
+            this.bt_password.TabIndex = 4;
+            this.bt_password.Text = "Password";
+            this.bt_password.UseVisualStyleBackColor = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackgroundImage = global::Qlks.Properties.Resources.loginIcon;
+            this.pictureBox1.Location = new System.Drawing.Point(139, 69);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(100, 81);
+            this.pictureBox1.TabIndex = 5;
+            this.pictureBox1.TabStop = false;
+
             // 
             // bt_thoat
             // 
@@ -81,40 +116,6 @@
             this.bt_dn.Text = "LOGIN";
             this.bt_dn.UseVisualStyleBackColor = false;
             this.bt_dn.Click += new System.EventHandler(this.bt_dn_Click);
-
-            // 
-            // bt_username
-            // 
-            this.bt_username.BackColor = System.Drawing.Color.DimGray;
-            this.bt_username.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bt_username.ForeColor = System.Drawing.Color.White;
-            this.bt_username.Location = new System.Drawing.Point(33, 188);
-            this.bt_username.Name = "bt_username";
-            this.bt_username.Size = new System.Drawing.Size(75, 23);
-            this.bt_username.TabIndex = 3;
-            this.bt_username.Text = "Username";
-            this.bt_username.UseVisualStyleBackColor = false;
-            // 
-            // bt_password
-            // 
-            this.bt_password.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.bt_password.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bt_password.ForeColor = System.Drawing.Color.White;
-            this.bt_password.Location = new System.Drawing.Point(33, 220);
-            this.bt_password.Name = "bt_password";
-            this.bt_password.Size = new System.Drawing.Size(75, 21);
-            this.bt_password.TabIndex = 4;
-            this.bt_password.Text = "Password";
-            this.bt_password.UseVisualStyleBackColor = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackgroundImage = global::Qlks.Properties.Resources.loginIcon;
-            this.pictureBox1.Location = new System.Drawing.Point(139, 69);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(100, 81);
-            this.pictureBox1.TabIndex = 5;
-            this.pictureBox1.TabStop = false;
 
             // 
             // DangNhap
