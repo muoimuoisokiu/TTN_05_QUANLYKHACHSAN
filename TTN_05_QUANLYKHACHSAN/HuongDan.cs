@@ -14,23 +14,7 @@ namespace Qlks
 {
     public partial class HuongDan : Form
     {
-        public HuongDan()
-        {
-            InitializeComponent();
-        }
-        CauLenh cl = new CauLenh();
-        DataTable dt = new DataTable();
-        private string dapan = null;
         
-        private int kq = 0, x = 0, mang = 3, cau = 0, tg = 3;
-        private void load()
-        {
-            dt.Clear();
-            lb_ch.Text = "Câu Hỏi";
-            lb_cd.Text = "0";
-            bt_dung.Enabled = false;
-            bt_sai.Enabled = false;
-        }
 
         private void HuongDan_Load(object sender, EventArgs e)
         {
