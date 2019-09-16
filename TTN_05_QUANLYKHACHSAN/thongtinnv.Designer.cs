@@ -220,7 +220,18 @@
             this.bt_them.UseVisualStyleBackColor = false;
             this.bt_them.Click += new System.EventHandler(this.bt_them_Click);
             // 
-            
+            // bt_sua
+            // 
+            this.bt_sua.BackColor = System.Drawing.Color.SteelBlue;
+            this.bt_sua.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bt_sua.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.bt_sua.Location = new System.Drawing.Point(501, 392);
+            this.bt_sua.Name = "bt_sua";
+            this.bt_sua.Size = new System.Drawing.Size(80, 30);
+            this.bt_sua.TabIndex = 11;
+            this.bt_sua.Text = "Edit";
+            this.bt_sua.UseVisualStyleBackColor = false;
+            this.bt_sua.Click += new System.EventHandler(this.bt_sua_Click);
             // 
             // bt_xoa
             // 
