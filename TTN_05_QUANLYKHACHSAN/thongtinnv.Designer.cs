@@ -207,44 +207,7 @@
             this.label9.TabIndex = 99;
             this.label9.Text = "Staff information";
             // 
-            // bt_them
-            // 
-            this.bt_them.BackColor = System.Drawing.Color.SteelBlue;
-            this.bt_them.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bt_them.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.bt_them.Location = new System.Drawing.Point(379, 392);
-            this.bt_them.Name = "bt_them";
-            this.bt_them.Size = new System.Drawing.Size(80, 30);
-            this.bt_them.TabIndex = 10;
-            this.bt_them.Text = "Add";
-            this.bt_them.UseVisualStyleBackColor = false;
-            this.bt_them.Click += new System.EventHandler(this.bt_them_Click);
-            // 
-            // bt_sua
-            // 
-            this.bt_sua.BackColor = System.Drawing.Color.SteelBlue;
-            this.bt_sua.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bt_sua.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.bt_sua.Location = new System.Drawing.Point(501, 392);
-            this.bt_sua.Name = "bt_sua";
-            this.bt_sua.Size = new System.Drawing.Size(80, 30);
-            this.bt_sua.TabIndex = 11;
-            this.bt_sua.Text = "Edit";
-            this.bt_sua.UseVisualStyleBackColor = false;
-            this.bt_sua.Click += new System.EventHandler(this.bt_sua_Click);
-            // 
-            // bt_xoa
-            // 
-            this.bt_xoa.BackColor = System.Drawing.Color.SteelBlue;
-            this.bt_xoa.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bt_xoa.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.bt_xoa.Location = new System.Drawing.Point(621, 392);
-            this.bt_xoa.Name = "bt_xoa";
-            this.bt_xoa.Size = new System.Drawing.Size(80, 30);
-            this.bt_xoa.TabIndex = 12;
-            this.bt_xoa.Text = "Delete";
-            this.bt_xoa.UseVisualStyleBackColor = false;
-            this.bt_xoa.Click += new System.EventHandler(this.bt_xoa_Click);
+           
             // 
             // rd_nam
             // 
