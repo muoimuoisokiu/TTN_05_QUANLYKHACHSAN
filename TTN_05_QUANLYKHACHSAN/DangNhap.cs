@@ -52,20 +52,7 @@ namespace Qlks
                        ql.ShowDialog();
                     }
 
-                    else
-                    {
-                        MessageBox.Show("Sai Tài Kho?n Ho?c M?t kh?u", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                        txt_tk.Text = "";
-                        txt_mk.Text = "";
-                        txt_tk.Focus();
-                    }  
-                }
-                else
-                {
-                    MessageBox.Show("Nh?p M?t kh?u", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                    txt_mk.Focus();
-                }
-            }
+                                }
             else
             {
                 MessageBox.Show("Nh?p Tài Kho?n", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
