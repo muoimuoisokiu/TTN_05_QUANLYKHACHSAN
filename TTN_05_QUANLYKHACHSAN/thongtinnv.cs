@@ -25,36 +25,7 @@ namespace Qlks
         {
            
             dt = cl.hiennv(0);
-            dg.DataSource = dt.DefaultView;
-            
-        }
-        private void thongtinnv_Load(object sender, EventArgs e)
-        {
-            loaddulieu();
-        }
 
-
-        private void bt_them_Click(object sender, EventArgs e)
-        {
-            if (!string.IsNullOrEmpty(txt_ten.Text))
-            {
-                if (!string.IsNullOrEmpty(txt_taikhoan.Text))
-                {
-
-                    if (rd_nam.Checked)
-                    {
-                        dt.Clear();
-                        dt = cl.themnv(txt_ten.Text, rd_nam.Text, txt_diachi.Text, txt_ngaysinh.Text, Convert.ToInt32(txt_sdt.Text), txt_taikhoan.Text, txt_matkhau.Text);
-                        if (dt.Rows[0]["errcode"].ToString() == "1")
-                        {
-                            MessageBox.Show("Tài Đã Khoản Tồn Tại", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                            txt_taikhoan.Focus();
-                        }
-                        else
-                        {
-                            MessageBox.Show("Thêm Thành Công", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                            dt.Clear();
-                            loaddulieu();
                         }
                     }
                     else
