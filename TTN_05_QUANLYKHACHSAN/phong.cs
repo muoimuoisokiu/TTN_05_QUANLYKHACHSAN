@@ -40,16 +40,7 @@ namespace Qlks
             lb_tenp.Text = "Phòng Số: " + maphong.ToString();
             dr = cl.timphong(maphong);
             while (dr.Read())
-            {
-                //lb_tt.Text = dr.GetString(1);
-                if (dr.GetString(1) == "Trống")
-                {
-                    rd_t.Checked = true;
-                    rd_kt.Checked = false;
-                    txt_ten.Text = "";
-                    txt_namsinh.Text = "";
-                    txt_socm.Text = "";
-                    txt_songuoidp.Text = "";
+          
 
                 }
                 else
