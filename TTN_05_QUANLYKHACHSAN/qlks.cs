@@ -24,35 +24,7 @@ namespace Qlks
         public string hinh3 = @"Hinh\dp.png";
         public string h1 = @"Hinh\h1.jpg";
         public string h2 = @"Hinh\h2.jpg";
-        public string h3 = @"Hinh\h3.jpg";
-        public string h4 = @"Hinh\h4.png";
-        public string h5 = @"Hinh\h5.jpg";
-        public string h6 = @"Hinh\h6.jpg";
-        CauLenh cl = new CauLenh();
-        DataTable dt = new DataTable();
-        SqlDataReader dr;
-        public string tt = null;
-        private string tinhtrang(int ma)
-        {
-            dt.Clear();
-            dt = cl.ttphong(ma);
-            string tt = dt.Rows[0]["TinhTrang"].ToString();
-            string hinh = null;
-            if (tt == "Không")
-            {
-                hinh = hinh2;
-            }
-            if (tt == "Trống")
-            {
-                hinh = hinh1;
-            }
-            if(tt == "Đặt Phòng")
-            {
-                hinh = hinh3;
-            }
-            return hinh;
-        }
-
+       
         private bool txp(int ma)
         {
             dr = cl.txphong(ma);
