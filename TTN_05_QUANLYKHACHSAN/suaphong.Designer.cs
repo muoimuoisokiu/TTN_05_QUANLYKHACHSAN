@@ -1,4 +1,4 @@
-﻿namespace Qlks
+namespace Qlks
 {
     partial class suaphong
     {
@@ -28,19 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.lb_tenp = new System.Windows.Forms.Label();
-            this.txt_giaphong = new System.Windows.Forms.TextBox();
-            this.cb_lp = new System.Windows.Forms.ComboBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.bt_luu = new System.Windows.Forms.Button();
-            this.bt_huy = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.txt_mp = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.SuspendLayout();
-            // 
-            // lb_tenp
+                        // lb_tenp
             // 
             this.lb_tenp.AutoSize = true;
             this.lb_tenp.BackColor = System.Drawing.Color.SeaGreen;
@@ -65,8 +53,8 @@
             // 
             this.cb_lp.AutoCompleteCustomSource.AddRange(new string[] {
             "VIP",
-            "Loại 1",
-            "Loại 2"});
+            "Lo?i 1",
+            "Lo?i 2"});
             this.cb_lp.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cb_lp.FormattingEnabled = true;
             this.cb_lp.Location = new System.Drawing.Point(128, 120);
