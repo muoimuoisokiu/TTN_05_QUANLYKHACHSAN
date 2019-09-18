@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -28,21 +28,7 @@ namespace Qlks
             webBrowser1.Navigate(t);
         }
 
-        private void bt_go_Click(object sender, EventArgs e)
-        {
-            webBrowser1.Navigate(txt_dc.Text);
-        }
-
-        private void bt_1_Click(object sender, EventArgs e)
-        {
-            webBrowser1.GoBack();
-        }
-
-        private void bt_3_Click(object sender, EventArgs e)
-        {
-            webBrowser1.GoHome();
-        }
-
+        
         private void bt_2_Click(object sender, EventArgs e)
         {
             webBrowser1.GoForward();
