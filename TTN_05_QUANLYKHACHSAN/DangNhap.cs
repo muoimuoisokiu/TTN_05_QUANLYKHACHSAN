@@ -27,12 +27,7 @@ namespace Qlks
 
         }
 
-        private void bt_thoat_Click(object sender, EventArgs e)
-        {
-            Application.Exit();
-        }
-
-        private void bt_dn_Click(object sender, EventArgs e)
+                private void bt_dn_Click(object sender, EventArgs e)
         {
             dt.Clear();
             dt = cl.dangnhap(txt_tk.Text, txt_mk.Text);
