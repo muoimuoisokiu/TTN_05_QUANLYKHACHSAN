@@ -204,6 +204,48 @@ namespace Qlks
             this.rd_t.UseVisualStyleBackColor = true;
             this.rd_t.CheckedChanged += new System.EventHandler(this.rd_t_CheckedChanged);
             // 
+            // lb_lp
+            // 
+            this.lb_lp.AutoSize = true;
+            this.lb_lp.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_lp.ForeColor = System.Drawing.Color.Black;
+            this.lb_lp.Location = new System.Drawing.Point(181, 151);
+            this.lb_lp.Name = "lb_lp";
+            this.lb_lp.Size = new System.Drawing.Size(40, 15);
+            this.lb_lp.TabIndex = 0;
+            this.lb_lp.Text = "empty";
+            // 
+            // lp_gp
+            // 
+            this.lp_gp.AutoSize = true;
+            this.lp_gp.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lp_gp.ForeColor = System.Drawing.Color.Black;
+            this.lp_gp.Location = new System.Drawing.Point(181, 196);
+            this.lp_gp.Name = "lp_gp";
+            this.lp_gp.Size = new System.Drawing.Size(40, 15);
+            this.lp_gp.TabIndex = 0;
+            this.lp_gp.Text = "empty";
+            // 
+            // lb_ngaydp
+            // 
+            this.lb_ngaydp.AutoSize = true;
+            this.lb_ngaydp.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_ngaydp.Location = new System.Drawing.Point(175, 411);
+            this.lb_ngaydp.Name = "lb_ngaydp";
+            this.lb_ngaydp.Size = new System.Drawing.Size(37, 14);
+            this.lb_ngaydp.TabIndex = 13;
+            this.lb_ngaydp.Text = "empty";
+            // 
+            // lb_ngaytp
+            // 
+            this.lb_ngaytp.AutoSize = true;
+            this.lb_ngaytp.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_ngaytp.Location = new System.Drawing.Point(175, 447);
+            this.lb_ngaytp.Name = "lb_ngaytp";
+            this.lb_ngaytp.Size = new System.Drawing.Size(37, 14);
+            this.lb_ngaytp.TabIndex = 14;
+            this.lb_ngaytp.Text = "empty";
+            // 
             // label6
             // 
             this.label6.AutoSize = true;
@@ -334,50 +376,6 @@ namespace Qlks
             this.label11.Size = new System.Drawing.Size(43, 19);
             this.label11.TabIndex = 0;
             this.label11.Text = "Price";
-
-
-            // 
-            // lb_lp
-            // 
-            this.lb_lp.AutoSize = true;
-            this.lb_lp.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lb_lp.ForeColor = System.Drawing.Color.Black;
-            this.lb_lp.Location = new System.Drawing.Point(181, 151);
-            this.lb_lp.Name = "lb_lp";
-            this.lb_lp.Size = new System.Drawing.Size(40, 15);
-            this.lb_lp.TabIndex = 0;
-            this.lb_lp.Text = "empty";
-            // 
-            // lp_gp
-            // 
-            this.lp_gp.AutoSize = true;
-            this.lp_gp.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lp_gp.ForeColor = System.Drawing.Color.Black;
-            this.lp_gp.Location = new System.Drawing.Point(181, 196);
-            this.lp_gp.Name = "lp_gp";
-            this.lp_gp.Size = new System.Drawing.Size(40, 15);
-            this.lp_gp.TabIndex = 0;
-            this.lp_gp.Text = "empty";
-            // 
-            // lb_ngaydp
-            // 
-            this.lb_ngaydp.AutoSize = true;
-            this.lb_ngaydp.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lb_ngaydp.Location = new System.Drawing.Point(175, 411);
-            this.lb_ngaydp.Name = "lb_ngaydp";
-            this.lb_ngaydp.Size = new System.Drawing.Size(37, 14);
-            this.lb_ngaydp.TabIndex = 13;
-            this.lb_ngaydp.Text = "empty";
-            // 
-            // lb_ngaytp
-            // 
-            this.lb_ngaytp.AutoSize = true;
-            this.lb_ngaytp.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lb_ngaytp.Location = new System.Drawing.Point(175, 447);
-            this.lb_ngaytp.Name = "lb_ngaytp";
-            this.lb_ngaytp.Size = new System.Drawing.Size(37, 14);
-            this.lb_ngaytp.TabIndex = 14;
-            this.lb_ngaytp.Text = "empty";
             // 
             // phong
             // 
