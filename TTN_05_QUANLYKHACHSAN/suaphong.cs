@@ -34,7 +34,39 @@ namespace Qlks
         private void bt_luu_Click(object sender, EventArgs e)
         {
            
-                    private void bt_huy_Click(object sender, EventArgs e)
+            if (!string.IsNullOrEmpty(txt_mp.Text))
+            {
+                if (!string.IsNullOrEmpty(txt_giaphong.Text))
+                {
+                    string lp = cb_lp.Text;
+                    dt.Clear();
+                    dt = cl.suaphong(Convert.ToInt32(txt_mp.Text), Convert.ToInt32(txt_giaphong.Text), lp);
+                    if (dt.Rows[0]["errcode"].ToString() == "0")
+                    {
+                        MessageBox.Show("?ã L?u", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                        suaphong_load();
+                    }
+                    else
+                    {
+                        MessageBox.Show("L?i", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                        txt_mp.Focus();
+                        suaphong_load();
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("Nh?p Giá Phòng", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    txt_giaphong.Focus();
+                }
+            }
+            else
+            {
+                MessageBox.Show("Nh?p Mã Phòng", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                txt_mp.Focus();
+            }
+        }
+
+        private void bt_huy_Click(object sender, EventArgs e)
         {
             this.Close();
         }

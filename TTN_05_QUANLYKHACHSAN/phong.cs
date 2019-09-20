@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -31,18 +31,10 @@ namespace Qlks
                 bt_capnhat.Enabled = true;
                 bt_tinhtien.Enabled = true;
             }
-            else
-            {
-                bt_capnhat.Enabled = false;
-                bt_tinhtien.Enabled = false;
-            }
-            label1.Text = "Thông Tin Phòng " + maphong.ToString();
-            lb_tenp.Text = "Phòng Số: " + maphong.ToString();
-            dr = cl.timphong(maphong);
-            while (dr.Read())
+                        while (dr.Read())
             {
                 //lb_tt.Text = dr.GetString(1);
-                if (dr.GetString(1) == "Trống")
+                if (dr.GetString(1) == "Tr?ng")
                 {
                     rd_t.Checked = true;
                     rd_kt.Checked = false;
@@ -99,7 +91,7 @@ namespace Qlks
                 {
                     dt = cl.xoacpp(maphong);
                     dt = cl.xoatongtien(maphong);
-                    MessageBox.Show("Sửa thành công", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    MessageBox.Show("S?a th�nh c�ng", "Th�ng B�o", MessageBoxButtons.OK, MessageBoxIcon.Warning);
 
                     load();
                 }
@@ -118,37 +110,37 @@ namespace Qlks
                                 rd_kt.Checked = true;
                                 if (dt.Rows[0]["errcode"].ToString() == "1")
                                 {
-                                    MessageBox.Show("Sửa thành công", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                                    MessageBox.Show("S?a th�nh c�ng", "Th�ng B�o", MessageBoxButtons.OK, MessageBoxIcon.Warning);
 
                                     load();
                                 }
                                 else
                                 {
-                                    MessageBox.Show("Lỗi", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                                    MessageBox.Show("L?i", "Th�ng B�o", MessageBoxButtons.OK, MessageBoxIcon.Warning);
 
                                 }
                             }
                             else
                             {
-                                MessageBox.Show("Nhập Số Người Đặt Phòng", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                                MessageBox.Show("Nh?p S? Ng??i ??t Ph�ng", "Th�ng B�o", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                                 txt_songuoidp.Focus();
                             }
                         }
                         else
                         {
-                            MessageBox.Show("Nhập Số Chứng Minh", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                            MessageBox.Show("Nh?p S? Ch?ng Minh", "Th�ng B�o", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                             txt_socm.Focus();
                         }
                     }
                     else
                     {
-                        MessageBox.Show("Nhập Năm Sinh", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                        MessageBox.Show("Nh?p N?m Sinh", "Th�ng B�o", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                         txt_namsinh.Focus();
                     }
                 }
                 else
                 {
-                    MessageBox.Show("Nhập Tên", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    MessageBox.Show("Nh?p T�n", "Th�ng B�o", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     txt_ten.Focus();
                 }
 

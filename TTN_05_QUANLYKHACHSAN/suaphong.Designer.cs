@@ -28,7 +28,19 @@ namespace Qlks
         /// </summary>
         private void InitializeComponent()
         {
-                        // lb_tenp
+            this.lb_tenp = new System.Windows.Forms.Label();
+            this.txt_giaphong = new System.Windows.Forms.TextBox();
+            this.cb_lp = new System.Windows.Forms.ComboBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.bt_luu = new System.Windows.Forms.Button();
+            this.bt_huy = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.txt_mp = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.SuspendLayout();
+            // 
+            // lb_tenp
             // 
             this.lb_tenp.AutoSize = true;
             this.lb_tenp.BackColor = System.Drawing.Color.SeaGreen;

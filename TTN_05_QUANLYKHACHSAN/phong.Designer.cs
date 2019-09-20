@@ -1,4 +1,4 @@
-﻿namespace Qlks
+namespace Qlks
 {
     partial class phong
     {
@@ -20,88 +20,7 @@
             base.Dispose(disposing);
         }
 
-        #region Windows Form Designer generated code
-
-        /// <summary>
-        /// Required method for Designer support - do not modify
-        /// the contents of this method with the code editor.
-        /// </summary>
-        private void InitializeComponent()
-        {
-            this.label1 = new System.Windows.Forms.Label();
-            this.txt_ten = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.lb_tenp = new System.Windows.Forms.Label();
-            this.bt_sua = new System.Windows.Forms.Button();
-            this.bt_huy = new System.Windows.Forms.Button();
-            this.rd_kt = new System.Windows.Forms.RadioButton();
-            this.rd_t = new System.Windows.Forms.RadioButton();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.txt_namsinh = new System.Windows.Forms.TextBox();
-            this.txt_socm = new System.Windows.Forms.TextBox();
-            this.label9 = new System.Windows.Forms.Label();
-            this.txt_songuoidp = new System.Windows.Forms.TextBox();
-            this.dt_ngaydp = new System.Windows.Forms.DateTimePicker();
-            this.dt_ngaytp = new System.Windows.Forms.DateTimePicker();
-            this.bt_tinhtien = new System.Windows.Forms.Button();
-            this.bt_capnhat = new System.Windows.Forms.Button();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.lb_lp = new System.Windows.Forms.Label();
-            this.lp_gp = new System.Windows.Forms.Label();
-            this.lb_ngaydp = new System.Windows.Forms.Label();
-            this.lb_ngaytp = new System.Windows.Forms.Label();
-            this.SuspendLayout();
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.SeaGreen;
-            this.label1.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.Transparent;
-            this.label1.Location = new System.Drawing.Point(234, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(63, 24);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "label1";
-            // 
-            // txt_ten
-            // 
-            this.txt_ten.Location = new System.Drawing.Point(178, 233);
-            this.txt_ten.Name = "txt_ten";
-            this.txt_ten.Size = new System.Drawing.Size(213, 20);
-            this.txt_ten.TabIndex = 3;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.LightCoral;
-            this.label2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(12, 76);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(51, 19);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "Status";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.LightCoral;
-            this.label3.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.Black;
-            this.label3.Location = new System.Drawing.Point(12, 234);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(114, 19);
-            this.label3.TabIndex = 0;
-            this.label3.Text = "CustomerName";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
-            // 
+                    // 
             // label4
             // 
             this.label4.AutoSize = true;
