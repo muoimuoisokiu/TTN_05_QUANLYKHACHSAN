@@ -255,30 +255,6 @@ namespace Qlks
             this.label9.TabIndex = 0;
             this.label9.Text = "NumberPeople";
             // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.BackColor = System.Drawing.Color.LightCoral;
-            this.label10.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.ForeColor = System.Drawing.Color.Black;
-            this.label10.Location = new System.Drawing.Point(15, 151);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(76, 19);
-            this.label10.TabIndex = 0;
-            this.label10.Text = "Typeroom";
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.BackColor = System.Drawing.Color.LightCoral;
-            this.label11.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.ForeColor = System.Drawing.Color.Black;
-            this.label11.Location = new System.Drawing.Point(15, 192);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(43, 19);
-            this.label11.TabIndex = 0;
-            this.label11.Text = "Price";
-            // 
             // txt_songuoidp
             // 
             this.txt_songuoidp.Location = new System.Drawing.Point(178, 362);
@@ -334,6 +310,31 @@ namespace Qlks
             this.bt_capnhat.Text = "Update";
             this.bt_capnhat.UseVisualStyleBackColor = false;
             this.bt_capnhat.Click += new System.EventHandler(this.bt_capnhat_Click);
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.BackColor = System.Drawing.Color.LightCoral;
+            this.label10.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.ForeColor = System.Drawing.Color.Black;
+            this.label10.Location = new System.Drawing.Point(15, 151);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(76, 19);
+            this.label10.TabIndex = 0;
+            this.label10.Text = "Typeroom";
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.BackColor = System.Drawing.Color.LightCoral;
+            this.label11.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.ForeColor = System.Drawing.Color.Black;
+            this.label11.Location = new System.Drawing.Point(15, 192);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(43, 19);
+            this.label11.TabIndex = 0;
+            this.label11.Text = "Price";
+
 
             // 
             // lb_lp
