@@ -53,43 +53,6 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "List of rooms";
             // 
-            // dg
-            // 
-            this.dg.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dg.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Maphong,
-            this.Tinhtrang,
-            this.Loaiphong,
-            this.Giaphong});
-            this.dg.Location = new System.Drawing.Point(1, 116);
-            this.dg.Name = "dg";
-            this.dg.Size = new System.Drawing.Size(443, 441);
-            this.dg.TabIndex = 1;
-            // 
-            // Maphong
-            // 
-            this.Maphong.DataPropertyName = "MaPhong";
-            this.Maphong.HeaderText = "Mã Phòng";
-            this.Maphong.Name = "Maphong";
-            // 
-            // Tinhtrang
-            // 
-            this.Tinhtrang.DataPropertyName = "TinhTrang";
-            this.Tinhtrang.HeaderText = "Tình Trạng";
-            this.Tinhtrang.Name = "Tinhtrang";
-            // 
-            // Loaiphong
-            // 
-            this.Loaiphong.DataPropertyName = "LoaiPhong";
-            this.Loaiphong.HeaderText = "Loại Phòng";
-            this.Loaiphong.Name = "Loaiphong";
-            // 
-            // Giaphong
-            // 
-            this.Giaphong.DataPropertyName = "GiaPhong";
-            this.Giaphong.HeaderText = "Giá Phòng";
-            this.Giaphong.Name = "Giaphong";
-            // 
             // rd_t
             // 
             this.rd_t.AutoSize = true;
@@ -148,6 +111,43 @@
             this.bt_xoa.Text = "Delete";
             this.bt_xoa.UseVisualStyleBackColor = false;
             this.bt_xoa.Click += new System.EventHandler(this.bt_xoa_Click);
+            // 
+            // dg
+            // 
+            this.dg.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dg.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Maphong,
+            this.Tinhtrang,
+            this.Loaiphong,
+            this.Giaphong});
+            this.dg.Location = new System.Drawing.Point(1, 116);
+            this.dg.Name = "dg";
+            this.dg.Size = new System.Drawing.Size(443, 441);
+            this.dg.TabIndex = 1;
+            // 
+            // Maphong
+            // 
+            this.Maphong.DataPropertyName = "MaPhong";
+            this.Maphong.HeaderText = "Mã Phòng";
+            this.Maphong.Name = "Maphong";
+            // 
+            // Tinhtrang
+            // 
+            this.Tinhtrang.DataPropertyName = "TinhTrang";
+            this.Tinhtrang.HeaderText = "Tình Trạng";
+            this.Tinhtrang.Name = "Tinhtrang";
+            // 
+            // Loaiphong
+            // 
+            this.Loaiphong.DataPropertyName = "LoaiPhong";
+            this.Loaiphong.HeaderText = "Loại Phòng";
+            this.Loaiphong.Name = "Loaiphong";
+            // 
+            // Giaphong
+            // 
+            this.Giaphong.DataPropertyName = "GiaPhong";
+            this.Giaphong.HeaderText = "Giá Phòng";
+            this.Giaphong.Name = "Giaphong";
             // 
             // danhsachphong
             // 
