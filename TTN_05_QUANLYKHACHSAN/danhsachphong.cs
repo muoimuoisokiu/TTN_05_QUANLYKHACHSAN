@@ -62,4 +62,27 @@ namespace Qlks
             load();
         }
 
-        
+        private void rd_t_Click(object sender, EventArgs e)
+        {
+            bt_loc.Enabled = true;
+            bt_xoa.Enabled = false;
+            
+        }
+
+        private void rd_kt_Click(object sender, EventArgs e)
+        {
+            bt_loc.Enabled = true;
+            bt_xoa.Enabled = false;
+        }
+
+        private void rd_kt_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void rd_t_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+    }
+}
