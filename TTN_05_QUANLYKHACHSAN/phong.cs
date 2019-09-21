@@ -31,7 +31,15 @@ namespace Qlks
                 bt_capnhat.Enabled = true;
                 bt_tinhtien.Enabled = true;
             }
-                        while (dr.Read())
+            else
+            {
+                bt_capnhat.Enabled = false;
+                bt_tinhtien.Enabled = false;
+            }
+            label1.Text = "Thông Tin Phòng " + maphong.ToString();
+            lb_tenp.Text = "Phòng S?: " + maphong.ToString();
+            dr = cl.timphong(maphong);
+            while (dr.Read())
             {
                 //lb_tt.Text = dr.GetString(1);
                 if (dr.GetString(1) == "Tr?ng")
