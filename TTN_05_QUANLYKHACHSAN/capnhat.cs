@@ -40,6 +40,24 @@ namespace Qlks
                 txt_gia.Text = dr.GetInt32(2).ToString();
                 lb_tt.Text = dr.GetInt32(3).ToString();
 
+            }
+            dt = cl.laydichvu(0);
+            dataGridView1.DataSource = dt;
+        }
+
+        private void capnhat_Load(object sender, EventArgs e)
+        {
+            form_load();
+        }
+        private void lu_click()
+        {
+            int giadv = 0, tiendatcoc = 0, d1 = 0, d2 = 0;
+
+            string chuoi1 = txt_gia.Text;
+            string[] ketqua1 = chuoi1.Split('+');
+            d1 = ketqua1.Length - 1;
+            if (d1 != 0)
+            {
                 for (int i = 0; i <= d1; i++)
                 {
                     giadv += Convert.ToInt32(ketqua1[i]);
