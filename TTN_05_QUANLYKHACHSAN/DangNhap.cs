@@ -42,6 +42,18 @@ namespace Qlks
                 {
                     if (dt.Rows[0]["errcode"].ToString() == "0")
                     {
+                        qlks.nguoi_dn = txt_tk.Text;
+                        tinhtien.nv = txt_tk.Text;
+                        txt_mk.Text = "";
+                        txt_tk.Text = "";
+                        txt_tk.Focus();
+                        this.Hide();
+                        qlks ql = new qlks();
+                       ql.ShowDialog();
+                    }
+
+                    else
+                    {
                         MessageBox.Show("Sai Tài Khoản Hoặc Mật khẩu", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
                         txt_tk.Text = "";
                         txt_mk.Text = "";
