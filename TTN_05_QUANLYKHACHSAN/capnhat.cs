@@ -80,26 +80,7 @@ namespace Qlks
             dt = cl.capnhatchiphi(maphong, Convert.ToInt32(txt_dc.Text), txt_dv.Text, Convert.ToInt32(txt_gia.Text));
             dt.Clear();
             dt = cl.Capnhattongtien(maphong, Convert.ToInt32(lb_tt.Text));
-            MessageBox.Show("Thành Công", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-            form_load();
-        }
-        private void bt_lu_Click(object sender, EventArgs e)
-        {
-            int giadv = 0, tiendatcoc = 0, d1 = 0, d2 = 0;
-
-            string chuoi1 = txt_gia.Text;
-            string[] ketqua1 = chuoi1.Split('+');
-            d1 = ketqua1.Length - 1;
-            if (d1 != 0)
-            {
-                for (int i = 0; i <= d1; i++)
-                {
-                    giadv += Convert.ToInt32(ketqua1[i]);
-                }
-                txt_gia.Text = giadv.ToString();
-            }
-
-            string chuoi2 = txt_dc.Text;
+           
             string[] ketqua2 = chuoi2.Split('+');
             d2 = ketqua2.Length - 1;
             if (d2 != 0)
