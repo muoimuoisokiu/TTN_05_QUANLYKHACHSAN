@@ -272,31 +272,7 @@
             this.rd_nu.Text = "Woman";
             this.rd_nu.UseVisualStyleBackColor = true;
             // 
-            // dg
-            // 
-            this.dg.AllowUserToAddRows = false;
-            this.dg.AllowUserToDeleteRows = false;
-            this.dg.AllowUserToResizeColumns = false;
-            this.dg.AllowUserToResizeRows = false;
-            this.dg.BackgroundColor = System.Drawing.SystemColors.Control;
-            this.dg.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dg.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Manv,
-            this.Tennv});
-            this.dg.Location = new System.Drawing.Point(13, 104);
-            this.dg.Name = "dg";
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.DarkCyan;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dg.RowHeadersDefaultCellStyle = dataGridViewCellStyle1;
-            this.dg.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dg.Size = new System.Drawing.Size(319, 318);
-            this.dg.TabIndex = 701;
-            this.dg.Click += new System.EventHandler(this.dg_Click);
+           
             // 
             // Manv
             // 
