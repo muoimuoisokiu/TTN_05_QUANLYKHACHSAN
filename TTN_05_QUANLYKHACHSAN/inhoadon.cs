@@ -27,12 +27,6 @@ namespace Qlks
         }
 
 
-
-
-
-
-
-
         //Load form report
         private void reportViewer1_Load(object sender, EventArgs e)
         {
