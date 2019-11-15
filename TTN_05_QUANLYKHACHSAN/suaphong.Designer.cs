@@ -1,4 +1,4 @@
-namespace Qlks
+﻿namespace Qlks
 {
     partial class suaphong
     {
@@ -65,8 +65,8 @@ namespace Qlks
             // 
             this.cb_lp.AutoCompleteCustomSource.AddRange(new string[] {
             "VIP",
-            "Lo?i 1",
-            "Lo?i 2"});
+            "Loại 1",
+            "Loại 2"});
             this.cb_lp.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cb_lp.FormattingEnabled = true;
             this.cb_lp.Location = new System.Drawing.Point(128, 120);

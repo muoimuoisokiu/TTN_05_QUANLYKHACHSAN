@@ -148,7 +148,6 @@
             this.bt_xoa.Text = "Delete";
             this.bt_xoa.UseVisualStyleBackColor = false;
             this.bt_xoa.Click += new System.EventHandler(this.bt_xoa_Click);
-
             // 
             // danhsachphong
             // 

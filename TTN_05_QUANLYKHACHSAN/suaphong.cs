@@ -1,4 +1,4 @@
-using System;
+Ôªøusing System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -43,25 +43,25 @@ namespace Qlks
                     dt = cl.suaphong(Convert.ToInt32(txt_mp.Text), Convert.ToInt32(txt_giaphong.Text), lp);
                     if (dt.Rows[0]["errcode"].ToString() == "0")
                     {
-                        MessageBox.Show("?„ L?u", "ThÙng B·o", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                        MessageBox.Show("ƒê√£ L∆∞u", "Th√¥ng B√°o", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                         suaphong_load();
                     }
                     else
                     {
-                        MessageBox.Show("L?i", "ThÙng B·o", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                        MessageBox.Show("L·ªói", "Th√¥ng B√°o", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                         txt_mp.Focus();
                         suaphong_load();
                     }
                 }
                 else
                 {
-                    MessageBox.Show("Nh?p Gi· PhÚng", "ThÙng B·o", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    MessageBox.Show("Nh·∫≠p Gi√° Ph√≤ng", "Th√¥ng B√°o", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     txt_giaphong.Focus();
                 }
             }
             else
             {
-                MessageBox.Show("Nh?p M„ PhÚng", "ThÙng B·o", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Nh·∫≠p M√£ Ph√≤ng", "Th√¥ng B√°o", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 txt_mp.Focus();
             }
         }

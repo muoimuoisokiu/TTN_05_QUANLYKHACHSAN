@@ -1,4 +1,4 @@
-namespace Qlks
+﻿namespace Qlks
 {
     partial class Thongtin
     {

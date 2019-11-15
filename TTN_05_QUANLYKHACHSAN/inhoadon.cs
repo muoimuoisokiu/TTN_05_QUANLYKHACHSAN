@@ -26,15 +26,13 @@ namespace Qlks
             this.reportViewer1.RefreshReport();
         }
 
-
-        //Load form report
         private void reportViewer1_Load(object sender, EventArgs e)
         {
             dt = cl.taoreport(makh);
             reportViewer1.Reset();
             reportViewer1.LocalReport.ReportPath = @"C:\Users\Tu Tu\Documents\Visual Studio 2013\Projects\Qlks\Qlks\rp.rdlc";
             reportViewer1.LocalReport.DataSources.Clear();
-            ReportDataSource newDataSource = new ReportDataSource("ds", dt);
+            ReportDataSource newDataSource = new ReportDataSource("ds",dt);
             reportViewer1.LocalReport.DataSources.Add(newDataSource);
             reportViewer1.RefreshReport();
         }

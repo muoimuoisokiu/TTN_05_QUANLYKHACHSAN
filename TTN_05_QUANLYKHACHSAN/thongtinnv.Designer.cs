@@ -272,15 +272,6 @@
             this.rd_nu.Text = "Woman";
             this.rd_nu.UseVisualStyleBackColor = true;
             // 
-           
-            // 
-            // Manv
-            // 
-            this.Manv.DataPropertyName = "MaNv";
-            this.Manv.HeaderText = "Mã Nhân Viên";
-            this.Manv.Name = "Manv";
-            // 
-            // Tennv
             // dg
             // 
             this.dg.AllowUserToAddRows = false;
@@ -305,7 +296,16 @@
             this.dg.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dg.Size = new System.Drawing.Size(319, 318);
             this.dg.TabIndex = 701;
-            this.dg.Click += new System.EventHandler(this.dg_Click);       // 
+            this.dg.Click += new System.EventHandler(this.dg_Click);
+            // 
+            // Manv
+            // 
+            this.Manv.DataPropertyName = "MaNv";
+            this.Manv.HeaderText = "Mã Nhân Viên";
+            this.Manv.Name = "Manv";
+            // 
+            // Tennv
+            // 
             this.Tennv.DataPropertyName = "HoTen";
             this.Tennv.HeaderText = "Tên Nhân Viên";
             this.Tennv.Name = "Tennv";

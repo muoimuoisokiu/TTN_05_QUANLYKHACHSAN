@@ -1,4 +1,4 @@
-using System;
+Ôªøusing System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -36,13 +36,13 @@ namespace Qlks
                 bt_capnhat.Enabled = false;
                 bt_tinhtien.Enabled = false;
             }
-            label1.Text = "ThÙng Tin PhÚng " + maphong.ToString();
-            lb_tenp.Text = "PhÚng S?: " + maphong.ToString();
+            label1.Text = "Th√¥ng Tin Ph√≤ng " + maphong.ToString();
+            lb_tenp.Text = "Ph√≤ng S·ªë: " + maphong.ToString();
             dr = cl.timphong(maphong);
             while (dr.Read())
             {
                 //lb_tt.Text = dr.GetString(1);
-                if (dr.GetString(1) == "Tr?ng")
+                if (dr.GetString(1) == "Tr·ªëng")
                 {
                     rd_t.Checked = true;
                     rd_kt.Checked = false;
@@ -99,7 +99,7 @@ namespace Qlks
                 {
                     dt = cl.xoacpp(maphong);
                     dt = cl.xoatongtien(maphong);
-                    MessageBox.Show("S?a th‡nh cÙng", "ThÙng B·o", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    MessageBox.Show("S·ª≠a th√†nh c√¥ng", "Th√¥ng B√°o", MessageBoxButtons.OK, MessageBoxIcon.Warning);
 
                     load();
                 }
@@ -118,37 +118,37 @@ namespace Qlks
                                 rd_kt.Checked = true;
                                 if (dt.Rows[0]["errcode"].ToString() == "1")
                                 {
-                                    MessageBox.Show("S?a th‡nh cÙng", "ThÙng B·o", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                                    MessageBox.Show("S·ª≠a th√†nh c√¥ng", "Th√¥ng B√°o", MessageBoxButtons.OK, MessageBoxIcon.Warning);
 
                                     load();
                                 }
                                 else
                                 {
-                                    MessageBox.Show("L?i", "ThÙng B·o", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                                    MessageBox.Show("L·ªói", "Th√¥ng B√°o", MessageBoxButtons.OK, MessageBoxIcon.Warning);
 
                                 }
                             }
                             else
                             {
-                                MessageBox.Show("Nh?p S? Ng??i ??t PhÚng", "ThÙng B·o", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                                MessageBox.Show("Nh·∫≠p S·ªë Ng∆∞·ªùi ƒê·∫∑t Ph√≤ng", "Th√¥ng B√°o", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                                 txt_songuoidp.Focus();
                             }
                         }
                         else
                         {
-                            MessageBox.Show("Nh?p S? Ch?ng Minh", "ThÙng B·o", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                            MessageBox.Show("Nh·∫≠p S·ªë Ch·ª©ng Minh", "Th√¥ng B√°o", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                             txt_socm.Focus();
                         }
                     }
                     else
                     {
-                        MessageBox.Show("Nh?p N?m Sinh", "ThÙng B·o", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                        MessageBox.Show("Nh·∫≠p NƒÉm Sinh", "Th√¥ng B√°o", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                         txt_namsinh.Focus();
                     }
                 }
                 else
                 {
-                    MessageBox.Show("Nh?p TÍn", "ThÙng B·o", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    MessageBox.Show("Nh·∫≠p T√™n", "Th√¥ng B√°o", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     txt_ten.Focus();
                 }
 

@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace TTN_05_QUANLYKHACHSAN.Properties
+namespace Qlks.Properties
 {
 
 
